@@ -9,9 +9,9 @@ import (
 
 var sample = []string{
 	"hello",
-	"lmao",
-	"abbe yaar",
-	"bore mat kar",
+	"are you there?",
+	"okay",
+	"i am busy",
 }
 
 func Worker1Pub(out chan<- string, wg *sync.WaitGroup, sleepOffset int, workerNumber int) {
